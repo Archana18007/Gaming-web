@@ -1,0 +1,277 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    margin: auto;
+    background-color: #000000;
+
+}
+.main{
+    background-color: #212022;
+}
+.topnav a{
+    text-decoration: none;
+    color: rgb(124 119 119);
+}
+.topnav a:hover{
+    color: #df0e80;
+}
+.nav{
+    color: white;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.butn{
+    border: 1px solid black;
+    /* background-color: brown; */
+}
+.flex-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+button{
+    background-color: #585555d9;
+    /* padding: 20px; */
+   
+    width: 102px;
+    padding: 10px;
+    border-radius: 15px;
+    color: #697575;
+    text-align: start;
+}
+
+
+.search-container {
+    /* float: right; */
+    margin-left: -233px;
+  }
+  
+  .topnav input[type=text] {
+    margin-top: 8px;
+    font-size: 15px;
+    border: none;
+    background: none;
+    margin-left: -148px;
+  }
+  .topnav i{
+    margin-left: -69px;
+    color: #645e5e;
+  }
+  
+  .topnav .search-container button {
+    padding: 11px 86px;
+    margin-top: 8px;
+    margin-right: 19px;
+    background: #585555d9;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #9b9a9b;
+  }
+  .logo{
+    margin-bottom: -34px;
+    margin-top: -34px;
+  }
+  .logoo{
+    width: 189px;
+  }
+  .port{
+    width: 56px;
+    margin-left: -43px;
+    margin-bottom: -14px;
+    border-radius: 10px;
+  }
+  
+
+  .banner{
+    width: 100%;
+    background-image: url(banner.jpg);
+    height: 354px;
+   background-size: cover;
+   border-radius: 26px;
+   margin-top: -36px;
+  
+  }
+  .sec-main{
+    padding: 50px;
+    background-color: #504d4d;
+    border: 35px solid #00030a;
+  }
+  .bord-main{
+    border: 35px solid #504d4d;
+    border-radius: 25px;
+  }
+  .butn1{
+    margin-top: 25px;
+    background-color:#df0e80;
+    color: white;
+    margin-left: 114px;
+    border: 1px solid #df0e80;
+  }
+  .cnt1{
+    color: white;
+  }
+  .span1{
+    color: #df0e80;
+  }
+  .head1{
+    margin-top: 33px;
+    margin-left: 73px;
+  }
+  .head2{
+    padding-top: 69px;
+    padding-left: 73px;
+  }
+.bord-two{
+  background-color: #00030a;
+  border-radius: 18px;
+  position: relative;
+  padding-bottom: 40px;
+}
+  h1 u{
+    color: white;
+  }
+  h1 span{
+    color: #df0e80;
+  }
+.head3{
+  padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  border-radius: 5px;
+  width: 293px;
+  height: 361px;
+  background-color: #373535;
+}
+
+.card-img {
+  border-radius: 33px;
+  width: 250px;
+  padding: 15px;
+  height: 55%;
+}
+.card-cnt{
+  padding: 10px 0;
+  margin-left: 15px;
+  color: white;
+}
+.flex-card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 21px 15px;
+  gap: 22px;
+}
+
+.card .card-div1,.card .card-div2{
+  display: flex;
+  justify-content: space-between;
+  h3,p{
+    padding: 0;
+    margin: 0;
+  }
+  
+
+
+}
+.card .card-div1 p i{
+  margin-left: -84px;
+  color: yellow;
+}
+.card .card-div2 p i{
+  margin-left: -84px;
+  color: #df0e80;
+}
+.card .card-div2 h3{
+  color: #645e5e;
+}
+.btn1{
+  background-color: #df0e80;
+    /* padding: 20px; */
+    width: 137px;
+    height: 42px;
+    padding: 5px;
+    border-radius: 15px;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 12px;
+     margin: auto;
+     margin-bottom: -80px;
+    border-color: #df0e80;
+}
+
+
+
+
+.bord-two1 {
+  background-color: #00030a;
+  border-radius: 18px;
+  margin-top: 60px;
+  padding: 48px;
+}
+.lbry  img{
+  /* display: flex; */
+  width: 90px;
+  border-radius: 37px;
+  padding: 28px;
+}
+.lbry{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.lbry h4{
+  margin-top: 30px;
+}
+.lbry p{
+  margin-top: 25px;
+    color: gray;
+}
+.lbry-cnt{
+  margin-left: 122px;
+}
+.lbry-p{
+  margin-top: 38px;
+    border: 1px solid gray;
+    width: 110px;
+    border-radius: 7px;
+    text-align: center;
+    padding: 5px;
+}
+.lbry-p:hover{
+  color: #df0e80;
+}
+
+.fotr{
+  color: white;
+  text-align: center;
+}
+.btn2{
+  background-color: #df0e80;
+    /* padding: 20px; */
+    width: 137px;
+    height: 42px;
+    padding: 5px;
+    border-radius: 15px;
+    color: #f2f2f2;
+    text-align: center;
+    font-size: 12px;
+    border-color: #df0e80;
+    margin: auto;
+    margin-top: -90px;
+}
